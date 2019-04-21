@@ -1,0 +1,4 @@
+#Tue Jan 29 00:38:55 CST 2019
+base.0=D\:\\AA AllDemo\\bs013elm\\as_elm\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\5
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,0 +1,11 @@
+#Internal package file, do not edit.
+#Fri Apr 19 19:26:38 CST 2019
+1.base=C\:\\Users\\ivo\\Desktop\\as_elm\\as_elm\\app\\build\\intermediates\\transforms\\dex\\release\\0
+0.baseType=DIRECTORY
+1.baseType=DIRECTORY
+count=2
+1.set=DEX
+0.path=FOOD.db
+0.set=ASSET
+0.base=C\:\\Users\\ivo\\Desktop\\as_elm\\as_elm\\app\\build\\intermediates\\assets\\release
+1.path=classes.dex

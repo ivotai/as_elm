@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <!-- 支付中心 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <include layout="@layout/title_bar" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="10dp" >
+
+            <TextView
+                android:id="@+id/tv_zfbPay"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/pay_zfb_pressed"
+                android:gravity="center"
+                android:text="支付宝支付"
+                android:textColor="#000" />
+
+            <!--
+                 <TextView
+                android:layout_width="1dip"
+                android:layout_height="40dp"
+                android:background="#000"
+                android:textColor="#000" />
+            -->
+
+            <TextView
+                android:id="@+id/tv_wxPay"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/pay_wx_normal"
+                android:gravity="center"
+                android:text="微信支付"
+                android:textColor="#000" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/yuanjiao_dialog_bg"
+            android:padding="10dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="( 注：为避免造成您的经济损失，请务必上传清晰有效的支付宝/微信 二维码，以供消费者扫码支付 )"
+                android:textColor="#ff0000" />
+
+            <ImageView
+                android:id="@+id/iv_pay_wx"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/pay_wx" />
+
+            <ImageView
+                android:id="@+id/iv_pay_zfb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/pay_zfb" />
+
+            <TextView
+                android:id="@+id/tv_add_erweima"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/btn_common_selector"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:text="(  重 新 上 传  ? )"
+                android:textSize="18sp"
+                android:textColor="#000" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

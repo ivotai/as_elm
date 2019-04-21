@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/ll_fragment_home"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/titleBar"
+        layout="@layout/title_bar" />
+
+    <com.arong.cookbook.widget.stickylistheaders.StickyListHeadersListView
+        android:id="@+id/lv_foodlist"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:clipToPadding="false"
+        android:drawSelectorOnTop="true"
+        android:fastScrollEnabled="true"
+        android:overScrollMode="never"
+        android:scrollbarStyle="outsideOverlay" >
+    </com.arong.cookbook.widget.stickylistheaders.StickyListHeadersListView>
+
+    <include
+        android:id="@+id/ll_foodpay"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        layout="@layout/food_cart_item" />
+
+</LinearLayout>

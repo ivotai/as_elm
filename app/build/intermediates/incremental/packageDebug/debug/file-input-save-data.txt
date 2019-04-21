@@ -1,0 +1,11 @@
+#Internal package file, do not edit.
+#Fri Apr 19 14:37:57 CST 2019
+1.base=C\:\\Users\\ivo\\Desktop\\as_elm\\as_elm\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+0.baseType=DIRECTORY
+1.baseType=DIRECTORY
+count=2
+1.set=DEX
+0.path=FOOD.db
+0.set=ASSET
+0.base=C\:\\Users\\ivo\\Desktop\\as_elm\\as_elm\\app\\build\\intermediates\\assets\\debug
+1.path=classes.dex

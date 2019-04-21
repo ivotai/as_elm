@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\ivo\Desktop\as_elm\as_elm\app\libs\library.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="caacca544070392a6e141b47342aec1602af026d">
+        <dex dex="C:\Users\ivo\Desktop\as_elm\as_elm\app\build\intermediates\transforms\preDex\release\1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ivo\Desktop\as_elm\as_elm\app\libs\universal-image-loader-1.8.6-with-sources.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9ad605dd55be2e74e614b2ab2ff466439c4461b7">
+        <dex dex="C:\Users\ivo\Desktop\as_elm\as_elm\app\build\intermediates\transforms\preDex\release\3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ivo\Desktop\as_elm\as_elm\app\libs\support.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="23670db5f1d039dca7bf2fe7feca8791752f9ee5">
+        <dex dex="C:\Users\ivo\Desktop\as_elm\as_elm\app\build\intermediates\transforms\preDex\release\2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ivo\.gradle\caches\transforms-1\files-1.1\support-v4-21.0.2.aar\1906391a53813dc188bc5cd6df5d288f\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d1bf02de1c56d942e7a9d093b8610ba1ef4128e3">
+        <dex dex="C:\Users\ivo\Desktop\as_elm\as_elm\app\build\intermediates\transforms\preDex\release\5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ivo\.gradle\caches\transforms-1\files-1.1\appcompat-v7-21.0.2.aar\79b0b4a45c073ff1beb424fa5a3b629a\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="7ae2d38807a43b2f2185ff4089a92c790b579e54">
+        <dex dex="C:\Users\ivo\Desktop\as_elm\as_elm\app\build\intermediates\transforms\preDex\release\4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ivo\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.2\support-annotations-21.0.2.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="99373741f99a0556ee293c41e8faa1ca3ae8a4e6">
+        <dex dex="C:\Users\ivo\Desktop\as_elm\as_elm\app\build\intermediates\transforms\preDex\release\7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\ivo\.gradle\caches\transforms-1\files-1.1\support-v4-21.0.2.aar\1906391a53813dc188bc5cd6df5d288f\jars\libs\internal_impl-21.0.2.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="962e8b12569c56dbdcf8367eb4eac8bb129cd18f">
+        <dex dex="C:\Users\ivo\Desktop\as_elm\as_elm\app\build\intermediates\transforms\preDex\release\6.jar" />
+    </item>
+
+</items>
